@@ -1,0 +1,166 @@
+*, ::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: #18191F;
+    margin-top: -3px;
+}
+
+.nav-link {
+    margin-right: 32px;
+    color: #18191F;
+    text-decoration: none;
+
+    transition: all 0.2s ease-in;
+}
+
+.nav-link:hover {
+    color: #8C30F5;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+.appstore-item {
+    margin-left: 12px;
+}
+
+.appstore-item:first-child {
+    margin-left: 12px;
+}
+
+/* Main*/
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 197px;
+    padding-bottom: 197px;
+    align-items: center;  
+}
+
+.main-content {
+    width: 540px;
+    font-size: 18px;
+    color: #18191F;
+}
+
+.main-header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191F;
+}
+
+.main-text {
+    margin-bottom: 32px;
+}
+
+.main-text p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.78;
+}
+
+.button {
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 62px;
+
+    background: #8C30F5;
+    border-radius: 8px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background: #0B0D17;
+    height: 72px;
+    color: #D9DBE1;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-socials {
+    display: flex;
+}
+
+.footer-social-item {
+    margin-left: 16px;
+}

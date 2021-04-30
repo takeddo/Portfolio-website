@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}
+
+.section-button-wrapper {
+    text-align: center;
+}
+
+.featured-section {
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.section-blog {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.section-subscribe {
+    padding-top: 22px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .featured-section {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .section-blog {
+        padding-top: 70px;
+        padding-bottom: 45px;
+    }
+
+    .section-subscribe {
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+}
